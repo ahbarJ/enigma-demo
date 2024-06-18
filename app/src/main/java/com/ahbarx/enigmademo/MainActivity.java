@@ -13,14 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tv1, tv2, tv3, tv4;
     String[] texts = {
-            "“Be yourself; everyone else is already taken.”\n" +
-            "― Oscar Wilde",
-            "“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”\n" +
-            "― Albert Einstein",
-            "“Be the change that you wish to see in the world.”\n" +
-                    "― Mahatma Gandhi",
-            "“If you tell the truth, you don't have to remember anything.”\n" +
-                    "― Mark Twain"};
+            "“Be yourself; everyone else is already taken.” ― Oscar Wilde",
+            "“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.” ― Albert Einstein",
+            "“Be the change that you wish to see in the world.” ― Mahatma Gandhi",
+            "“If you tell the truth, you don't have to remember anything.” ― Mark Twain"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

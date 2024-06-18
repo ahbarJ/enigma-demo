@@ -1,6 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
+    id "com.chrisney.enigma"
 }
+
+enigma.enabled = true
+enigma.injectFakeKeys = true
+enigma.ignoredClasses = []
 
 android {
     namespace 'com.ahbarx.enigmademo'
@@ -22,6 +27,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
